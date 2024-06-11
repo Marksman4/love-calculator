@@ -13,7 +13,7 @@ function showResult(){
 
 
 
-    if( randomnumber >= 11 && randomnumber <= 20 ){
+    else if( randomnumber >= 11 && randomnumber <= 20 ){
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. hmmm warisdis 😈 Send your lover a love message today! " ;
 
     }
