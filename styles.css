@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 13px;
+    
+}
+
+nav h1{
+    color: #fff;
+    font-size: 30px;
+    padding:  10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(219, 219, 230), 0 0 5px red;
+}
+
+.container{
+    margin: 80px auto;
+    padding: 20px;
+    max-width: 700px;
+    border: 2px solid wheat;
+    box-shadow: 1px 1px 10px white;
+}
+
+.container h2{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;  
+}
+
+.container p{
+   font-size: 20px;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+   
+}
+
+.container p span{
+    color: lightcoral;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+   
+}
+
+
+
+button{
+    display: block;
+    height:40px ;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+
+
+
+.result p{
+    background-color: wheat;
+    justify-content: center;
+    display: flex;
+    padding: 25px 10px;
+    align-items: center;
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+   
+    
+}
+
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolds;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 400px){
+    .container{
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 768px), (min-width: 1101px) {
+
+    .container{
+        margin: 130px auto;
+    }
+
+    footer{
+        
+        margin-top: 0;
+    }
+
+}
