@@ -22,13 +22,13 @@ function showResult(){
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. Ewooooh 🤬 Oya dash your lover a Surprise Gift Today!" ;
 
     }
-    else if( randomnumber >= 3 && randomnumber <= 40 ){
+    else if( randomnumber >= 31 && randomnumber <= 40 ){
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. See as i dey look U 🐵, Nawaa for You oooh" ;
 
     }
     
 
-    else if( randomnumber >= 4 && randomnumber <= 50 ){
+    else if( randomnumber >= 41 && randomnumber <= 50 ){
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. 😉 For your Mind you dey try abi, Better Person"  ;
 
     }
