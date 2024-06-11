@@ -6,7 +6,7 @@ function showResult(){
     lovername =lovername.toUpperCase();
     var randomnumber =Math.floor(Math.random() * 100) + 1;
 
-    if( randomnumber >= 0 && randomnumber <= 10  ) {
+    if(randomnumber <= 10  ) {
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. Thats too poor 💩, Say i love you to your lover today!" ;
 
     }
