@@ -50,7 +50,7 @@ function showResult(){
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. 💌 Honourable Minister of love Affairs 💕 " ;
     }
     else{
-        var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. 💌 National prrsident for  love Affairs 💕 " ;
+        var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. 💌 National president for  love Affairs 💕 " ;
 
     }
   
