@@ -54,11 +54,7 @@ function showResult(){
 
     }
   
-    return document.querySelector("button").innerHTML="PLAY AGAIN!";
-
-    
-
-    
+    document.querySelector("button").innerHTML="PLAY AGAIN!";
 
 }
 
