@@ -59,6 +59,12 @@ function showResult(){
     }
   
     document.querySelector("button").innerHTML="PLAY AGAIN!";
+
+    document.querySelector("#name").value="";
+    document.querySelector("#lovername").value="";
+
+
+   
 }
 
 
