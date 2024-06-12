@@ -32,7 +32,7 @@ nav h1{
 }
 
 .container h2{
-    font-size: 28px;
+    font-size: 24px;
     color: #fff;
     margin-bottom: 20px;  
 }
@@ -40,7 +40,7 @@ nav h1{
 .container p{
    font-size: 20px;
    letter-spacing: 1px;
-   margin-bottom: 30px;
+   margin-bottom: 15px;
    
 }
 
@@ -65,6 +65,26 @@ button{
     border: none;
     margin-bottom: 30px;
     margin-top: 30px
+}
+
+
+input{
+    color: black;
+    width: 49%;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid rgb(116, 37, 37);
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgb(248, 32, 32) ;
+
+}
+
+::placeholder{
+    color: red;
+    font-size: 20px;
+    text-align: center;
 }
 
 
