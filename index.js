@@ -1,10 +1,14 @@
 
 function showResult(){
-    var yourname =prompt("What is your name");
+
+    var yourname =document.querySelector("#name").value;
     yourname =yourname.toUpperCase();
-    var lovername =prompt("What is your lover name")
+    var lovername =document.querySelector("#lovername").value;
     lovername =lovername.toUpperCase();
     var randomnumber =Math.floor(Math.random() * 100) + 1;
+
+    
+    
 
     if(randomnumber <= 10  ) {
         var score =document.getElementById("score").innerHTML="HI! " + yourname + ", YOU LOVE " + lovername + " " + randomnumber + "% PERCENT. Thats too poor 💩, Say i love you to your lover today!" ;
@@ -55,7 +59,6 @@ function showResult(){
     }
   
     document.querySelector("button").innerHTML="PLAY AGAIN!";
-
 }
 
 
